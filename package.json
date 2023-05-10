@@ -1,0 +1,31 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "The URL shortener is a tool designed to create shorter and more manageable aliases for long URLs. It offers features such as customizable aliases, click tracking, QR code generation, and a user-friendly interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saminwankwo/Urlshortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saminwankwo/Urlshortener/issues"
+  },
+  "homepage": "https://github.com/saminwankwo/Urlshortener#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
